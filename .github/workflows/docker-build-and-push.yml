@@ -26,4 +26,4 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: projcheska/kiii-jenkins:latest
+          tags: projcheska/kiii-demo-01:latest
