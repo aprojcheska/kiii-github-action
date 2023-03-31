@@ -3,7 +3,7 @@ name: docker-build-and-push
 on:
   push:
     branches:
-      - 'main'
+      - 'master'
 
 jobs:
   docker:
@@ -26,4 +26,4 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: projcheska/kiii-github-action-01:latest
+          tags: projcheska/kiii-jenkins:latest
